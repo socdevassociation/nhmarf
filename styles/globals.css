@@ -1,0 +1,21 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+.mantine-AppShell-main {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .mantine-AppShell-main {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
+
+.full-height-minus-footer {
+  min-height: calc(
+    100vh - var(--mantine-footer-height) - var(--mantine-header-height)
+  );
+}
