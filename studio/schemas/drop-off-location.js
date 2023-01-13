@@ -9,11 +9,6 @@ export default {
       title: "Name",
     },
     {
-      name: "description",
-      type: "text",
-      title: "Description",
-    },
-    {
       name: "content",
       title: "Content",
       type: "array",
@@ -22,6 +17,11 @@ export default {
           type: "block",
         },
       ],
+    },
+    {
+      name: "address",
+      description: "Navigable address of the drop off location",
+      type: "string",
     },
     {
       name: "region",

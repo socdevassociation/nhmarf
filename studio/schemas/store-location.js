@@ -1,8 +1,13 @@
 export default {
-  name: "dropoff",
+  name: "storeLocation",
   type: "document",
-  title: "Drop Off Info",
+  title: "Store Location",
   fields: [
+    {
+      name: "name",
+      type: "string",
+      title: "Name",
+    },
     {
       name: "content",
       title: "Content",

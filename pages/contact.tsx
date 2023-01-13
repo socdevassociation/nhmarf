@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <Container py={{ base: "xs", sm: "xl" }}>
-        <Title>Contact Us</Title>
+        <Title pb="xl">Contact Us</Title>
         <Group>
           <svg
             xmlns="http://www.w3.org/2000/svg"
