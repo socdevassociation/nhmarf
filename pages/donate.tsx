@@ -1,9 +1,7 @@
 import {
   Container,
-  Group,
   Stack,
   Title,
-  Text,
   Divider,
   Card,
   SimpleGrid,

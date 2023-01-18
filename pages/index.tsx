@@ -1,11 +1,4 @@
-import {
-  AspectRatio,
-  Container,
-  Stack,
-  Text,
-  Title,
-  Image,
-} from "@mantine/core";
+import { Container, Stack, Text, Title } from "@mantine/core";
 import Head from "next/head";
 
 export default function Home() {

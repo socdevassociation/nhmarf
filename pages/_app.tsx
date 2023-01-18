@@ -1,6 +1,6 @@
 import { AppProps } from "next/app";
 import Head from "next/head";
-import { AppShell, Container, Flex, MantineProvider } from "@mantine/core";
+import { Flex, MantineProvider } from "@mantine/core";
 import "../styles/globals.css";
 import SDAFooter from "../components/Footer";
 import SDAHeader from "../components/Header";

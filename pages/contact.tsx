@@ -1,4 +1,4 @@
-import { Container, Group, Text, Title } from "@mantine/core";
+import { Container, Group, Title } from "@mantine/core";
 import Head from "next/head";
 import Link from "next/link";
 export default function Contact() {

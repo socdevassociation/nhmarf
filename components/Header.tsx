@@ -1,6 +1,5 @@
 import {
   Header as MantineHeader,
-  Image,
   Flex,
   Burger,
   createStyles,
@@ -10,6 +9,7 @@ import {
   Container,
   Title,
 } from "@mantine/core";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { Route, routes } from "../cfg/routes";
 import Link from "next/link";
