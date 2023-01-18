@@ -1,10 +1,14 @@
 import { Box, Container } from "@mantine/core";
 import { PortableText } from "@portabletext/react";
 import { createClient } from "next-sanity";
+import Head from "next/head";
 
 export default function Locations({ data }) {
   return (
     <Container py={{ base: "xs", sm: "xl" }}>
+      <Head>
+        <title>NHMARF - Locations</title>
+      </Head>
       {data.map((item) => (
         <Box key={item.id}>
           <PortableText value={item.content}></PortableText>

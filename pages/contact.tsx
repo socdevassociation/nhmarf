@@ -1,8 +1,12 @@
 import { Container, Group, Text, Title } from "@mantine/core";
+import Head from "next/head";
 import Link from "next/link";
 export default function Contact() {
   return (
     <div>
+      <Head>
+        <title>NHMARF - Contact</title>
+      </Head>
       <Container py={{ base: "xs", sm: "xl" }}>
         <Title pb="xl">Contact Us</Title>
         <Group>

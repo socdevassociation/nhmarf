@@ -7,6 +7,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import dropOffLocation from "./drop-off-location";
 import region from "./region";
 import storeLocation from "./store-location";
+import blogPost from "./blog-post";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -18,6 +19,7 @@ export default createSchema({
     dropOffLocation,
     region,
     storeLocation,
+    blogPost,
 
     /* Your types here! */
   ]),

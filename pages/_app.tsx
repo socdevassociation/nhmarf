@@ -11,7 +11,6 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Page title</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -27,6 +26,10 @@ export default function App(props: AppProps) {
           components: {
             Headers: {},
           },
+          headings: {
+            fontFamily: "Bebas Neue",
+          },
+          fontFamily: "Montserrat",
         }}
       >
         <Flex direction="column" className="h-screen overflow-y-auto">

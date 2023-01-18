@@ -12,10 +12,14 @@ import {
 import Link from "next/link";
 import { createClient } from "next-sanity";
 import { PortableText } from "@portabletext/react";
+import Head from "next/head";
 
 export default function Donate({ data }) {
   return (
     <Container py={{ base: "xs", sm: "xl" }}>
+      <Head>
+        <title>NHMARF - Donate</title>
+      </Head>
       <Stack>
         <Title>Donate Online</Title>
         <Link href="https://donorbox.org/nhmarf">Donate through DonorBox</Link>
