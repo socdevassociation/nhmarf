@@ -18,6 +18,10 @@ export default function App(props: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        <meta
+          name="description"
+          content="A grassroots effort of New Hampshire working-class people who believe that direct action and solidarity are the best ways to meet the material and social needs of our community."
+        ></meta>
       </Head>
 
       <MantineProvider

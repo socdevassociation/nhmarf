@@ -137,6 +137,7 @@ export default function SDAHeader() {
           onClick={toggle}
           size="lg"
           className={classes.burger}
+          aria-label="Open navigation"
         ></Burger>
 
         <Transition transition="pop-top-right" mounted={opened} duration={200}>
