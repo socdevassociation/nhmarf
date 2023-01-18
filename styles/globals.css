@@ -19,5 +19,3 @@
     100vh - var(--mantine-footer-height) - var(--mantine-header-height)
   );
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap");

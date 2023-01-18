@@ -5,6 +5,9 @@ import "../styles/globals.css";
 import SDAFooter from "../components/Footer";
 import SDAHeader from "../components/Header";
 
+import "@fontsource/montserrat";
+import "@fontsource/bebas-neue";
+
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
 
