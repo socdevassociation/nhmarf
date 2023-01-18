@@ -29,7 +29,7 @@ export default function App(props: AppProps) {
           headings: {
             fontFamily: "Bebas Neue",
           },
-          fontFamily: "Montserrat",
+          fontFamily: "Montserrat, sans-serif",
         }}
       >
         <Flex direction="column" className="h-screen overflow-y-auto">
