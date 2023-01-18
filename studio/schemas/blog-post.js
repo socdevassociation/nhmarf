@@ -18,5 +18,19 @@ export default {
         },
       ],
     },
+    {
+      name: "publishedAt",
+      title: "Published at",
+      type: "datetime",
+    },
+    {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "title",
+        maxLength: 96,
+      },
+    },
   ],
 };

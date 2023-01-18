@@ -8,7 +8,7 @@ import {
   Space,
 } from "@mantine/core";
 import Link from "next/link";
-import { createClient } from "next-sanity";
+import client from "../lib/sanity/client";
 import { PortableText } from "@portabletext/react";
 import Head from "next/head";
 
@@ -63,13 +63,6 @@ export default function Donate({ data }) {
     </Container>
   );
 }
-
-const client = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
-  dataset: "production",
-  apiVersion: "2023-01-04",
-  useCdn: false,
-});
 
 export async function getStaticProps() {
   const data = await client.fetch(
