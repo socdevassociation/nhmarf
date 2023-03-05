@@ -12,7 +12,7 @@ export default function SDAFooter() {
   return (
     <MantineFooter height={120} p="md" fixed={false}>
       <Flex justify="end" direction="column" h="100%">
-        <Text align="center" size="sm">
+        {/* <Text align="center" size="sm">
           Proudly designed and hosted by the{" "}
           <Link
             className="whitespace-nowrap"
@@ -20,7 +20,7 @@ export default function SDAFooter() {
           >
             Socialist Developers Association
           </Link>
-        </Text>
+        </Text> */}
       </Flex>
     </MantineFooter>
   );
